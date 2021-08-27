@@ -1,0 +1,6 @@
+kg.itschool.airtickets.controller.PassengerController=org.springframework.stereotype.Component
+kg.itschool.airtickets.dao.PassengerRepository=org.springframework.stereotype.Component
+kg.itschool.airtickets.dao.impl.PassengerRepositoryImpl=org.springframework.stereotype.Component
+kg.itschool.airtickets.entity.Passenger=javax.persistence.Entity,javax.persistence.Table
+kg.itschool.airtickets.service.PassengerService=org.springframework.stereotype.Component
+kg.itschool.airtickets.service.impl.PassengerServiceImpl=org.springframework.stereotype.Component

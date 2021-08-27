@@ -8,6 +8,10 @@
 
     <absolute-ordering/>
 
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
     <!-- Step one configuration of dispatcher -->
     <servlet>
         <servlet-name>dispatcher</servlet-name>

@@ -12,14 +12,14 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!-- Step three configure path to scan for beans -->
-    <context:component-scan base-package="kg.itschool.airtickets"/>
+    <context:component-scan base-package="kg.itschool.airtick"/>
 
     <!-- Step four add support for validation, conversion, formatting -->
     <mvc:annotation-driven/>
 
     <!-- Step five add Spring MVC view class -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="view/"/>
+        <property name="prefix" value="/static/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
 

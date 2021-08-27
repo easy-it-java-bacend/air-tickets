@@ -1,6 +1,20 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-ear" name="airtickets">
+  <artifact type="exploded-war" name="airtickets">
     <output-path>$PROJECT_DIR$/out/artifacts/airtickets</output-path>
-    <root id="root" />
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="air-tickets" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="spring-ext" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/lombok.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/postgresql-42.2.18.jar" />
+          <element id="library" level="project" name="Hibernate-validator" />
+          <element id="library" level="project" name="Hibernate-ORM" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="air-tickets/web/Web" />
+    </root>
   </artifact>
 </component>
