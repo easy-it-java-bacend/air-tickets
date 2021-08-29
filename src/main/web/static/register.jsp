@@ -12,7 +12,7 @@
     <title>Title</title>
 </head>
 <body>
-    <form action="confiramtion-page">
+    <form action="confirmation-page">
         <input type="text" name="email" placeholder="Email">
         <br>
         <input type="password" name="password" placeholder="Password">

@@ -7,9 +7,9 @@
 
         <!-- Connection details for JDBC -->
         <property name="connection.driver_class">org.postgresql.Driver</property>
-        <property name="connection.url">jdbc:postgresql://localhost:5432/test</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/postgres</property>
         <property name="connection.username">postgres</property>
-        <property name="connection.password">1234</property>
+        <property name="connection.password">onepiece1uffi</property>
 
         <!-- SQL dialect for hibernate -->
         <property name="dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
@@ -24,6 +24,7 @@
         <property name="hbm2ddl.auto">update</property>
 
         <mapping class="kg.itschool.airtickets.entity.Passenger"/>
+        <mapping class="kg.itschool.airtickets.entity.Plane"/>
 
     </session-factory>
 </hibernate-configuration>

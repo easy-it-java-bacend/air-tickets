@@ -11,7 +11,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.Scanner;
+
 
 @Controller
 @RequestMapping("/api/v1/passenger")
@@ -21,7 +21,7 @@ public class PassengerController {
     // Where is @Autowired?
     private final PassengerService passengerService;
 
-    //https://loalhost:8081/api/v1/passenger/main
+    //https://localhost:8081/api/v1/passenger/main
     @RequestMapping("/main")
     public String getMainMenu() {
         return "main";
@@ -32,7 +32,7 @@ public class PassengerController {
         return "register";
     }
 
-    @RequestMapping("/confiramtion-page")
+    @RequestMapping("/confirmation-page")
     public String confirmRegistration(HttpServletRequest request, Model model) {
         PassengerDTO passengerDTO = new PassengerDTO();
 

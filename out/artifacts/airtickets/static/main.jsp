@@ -14,5 +14,7 @@
     <h4>Welcome!</h4>
     <hr>
     <a href="register">Register</a>
+    <br>
+    <a href="plane_addition">Plane addition</a>
 </body>
 </html>
