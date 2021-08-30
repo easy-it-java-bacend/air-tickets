@@ -40,4 +40,10 @@ public class Passenger {
 
     @Column
     private Date dateOfBirth;
+
+    @Column
+    private String userName;
+
+    @Column
+    private String userRole;
 }
