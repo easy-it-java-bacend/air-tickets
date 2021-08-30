@@ -39,5 +39,11 @@ public class Passenger {
     private Date dateOfBirth;
 
     @Column
-    private Integer something;
+    private String userName;
+
+    @Column
+    private String userRole;
+
+    @Column
+    private String passportDetails;
 }
