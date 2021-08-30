@@ -19,7 +19,7 @@ public class PassengerMapperImpl implements PassengerMapper {
         passenger.setEmail(passengerDTO.getEmail());
         passenger.setDateOfBirth(passengerDTO.getDateOfBirth());
         passenger.setGender(passengerDTO.getGender());
-        passenger.setPassport(passengerDTO.getPassport());
+        passenger.setPassportDetails(passengerDTO.getPassportDetails());
         passenger.setPhoneNumber(passengerDTO.getPhoneNumber());
         passenger.setPassword(passengerDTO.getPassword());
         return passenger;
@@ -38,7 +38,7 @@ public class PassengerMapperImpl implements PassengerMapper {
         passengerDTO.setFirstName(passenger.getFirstName());
         passengerDTO.setLastName(passenger.getLastName());
         passengerDTO.setEmail(passenger.getEmail());
-        passengerDTO.setPassport(passenger.getPassword());
+        passengerDTO.setPassportDetails(passenger.getPassportDetails());
         passengerDTO.setPhoneNumber(passenger.getPhoneNumber());
         passengerDTO.setPassword(passenger.getPassword());
         passengerDTO.setDateOfBirth(passenger.getDateOfBirth());

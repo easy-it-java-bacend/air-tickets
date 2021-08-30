@@ -8,7 +8,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Data
 public class PassengerDTO {
-
+    //Refactor //Controller
     private Long id;
     private String email;
     private String password;
@@ -16,7 +16,7 @@ public class PassengerDTO {
     private String lastName;
     private String gender;
     private String phoneNumber;
-    private String passport;
+    private String passportDetails;
     private Date dateOfBirth;
     private String userName;
     private String userRole;
