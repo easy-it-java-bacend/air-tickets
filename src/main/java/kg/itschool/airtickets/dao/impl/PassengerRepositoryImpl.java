@@ -32,4 +32,20 @@ public class PassengerRepositoryImpl implements PassengerRepository {
         session.save(passenger);
         session.close();
     }
+
+    @Override
+    public void getAllPassengers() {
+        Session session = sessionFactory.getCurrentSession();
+
+    }
+
+    @Override
+    public void deletePassenger(Long id) {
+
+    }
+
+    @Override
+    public void updatePassenger(Passenger passenger) {
+
+    }
 }

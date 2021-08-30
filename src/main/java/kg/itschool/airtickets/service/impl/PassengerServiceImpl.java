@@ -26,4 +26,6 @@ public class PassengerServiceImpl implements PassengerService {
         passengerRepository.insertPassenger(passenger);
     }
 
+
+
 }

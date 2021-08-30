@@ -7,5 +7,7 @@ import org.springframework.stereotype.Repository;
 public interface PassengerRepository {
 
     void insertPassenger(Passenger passenger);
-
+    void getAllPassengers();
+    void deletePassenger(Long id);
+    void updatePassenger(Passenger passenger);
 }
