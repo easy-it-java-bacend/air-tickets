@@ -26,7 +26,7 @@ public class PassengerRepositoryImpl implements PassengerRepository {
 
     @Override
     @Transactional
-    public void insertPassenger(Passenger passenger) {
+    public void save(Passenger passenger) {
         Session session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(passenger);
