@@ -8,7 +8,7 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="spring-ext" />
-          <element id="file-copy" path="$USER_HOME$/Desktop/lombok.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/libs/lombok.jar" />
           <element id="file-copy" path="$USER_HOME$/Desktop/postgresql-42.2.18.jar" />
           <element id="library" level="project" name="Hibernate-validator" />
           <element id="library" level="project" name="Hibernate-ORM" />
