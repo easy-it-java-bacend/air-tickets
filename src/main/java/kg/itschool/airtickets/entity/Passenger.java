@@ -36,8 +36,8 @@ public class Passenger {
     private String phoneNumber;
 
     @Column
-    private String passport;
+    private Date dateOfBirth;
 
     @Column
-    private Date dateOfBirth;
+    private Integer something;
 }
