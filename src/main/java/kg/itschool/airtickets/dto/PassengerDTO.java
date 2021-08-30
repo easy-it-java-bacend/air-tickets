@@ -18,5 +18,6 @@ public class PassengerDTO {
     private String phoneNumber;
     private String passport;
     private Date dateOfBirth;
-
+    private String userName;
+    private String userRole;
 }
