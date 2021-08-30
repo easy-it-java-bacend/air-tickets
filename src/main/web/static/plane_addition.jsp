@@ -16,7 +16,7 @@
 <br>
 <input type="text" name="model" placeholder="Model">
 <br>
-<input type="text" name="seats" placeholder="Seats">
+<input type="number" name="seats" placeholder="Seats">
 <br>
 <input type="submit">
 </body>

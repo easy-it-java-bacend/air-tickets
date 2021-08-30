@@ -3,6 +3,7 @@ package kg.itschool.airtickets.service.impl;
 import kg.itschool.airtickets.dao.PassengerRepository;
 import kg.itschool.airtickets.dto.PassengerDTO;
 import kg.itschool.airtickets.entity.Passenger;
+import kg.itschool.airtickets.mapper.PassengerMapper;
 import kg.itschool.airtickets.service.PassengerService;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
@@ -25,5 +26,7 @@ public class PassengerServiceImpl implements PassengerService {
 
         passengerRepository.insertPassenger(passenger);
     }
+
+    private PassengerMapper passengerMapper;
 
 }

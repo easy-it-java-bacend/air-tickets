@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Table(name = "passengers")
@@ -15,6 +16,24 @@ public class Passenger {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column
     private Long id;
+
+    @Column
+    private String firstName;
+
+    @Column
+    private String lastName;
+
+    @Column
+    private Date dateOfBirth;
+
+    @Column
+    private String gender;
+
+    @Column
+    private String passport;
+
+    @Column
+    private String phoneNumber;
 
     @Column
     private String email;
