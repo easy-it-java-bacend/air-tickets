@@ -3,12 +3,14 @@ package kg.itschool.airtickets.mapper.impl;
 import kg.itschool.airtickets.dto.PassengerDTO;
 import kg.itschool.airtickets.entity.Passenger;
 import kg.itschool.airtickets.mapper.PassengerMapper;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+@Component
 public class PassengerMapperImpl implements PassengerMapper {
 
     public Passenger toEntity(PassengerDTO passengerDTO) {
